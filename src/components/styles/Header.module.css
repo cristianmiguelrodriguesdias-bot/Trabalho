@@ -1,0 +1,25 @@
+.header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 20px 15px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+}

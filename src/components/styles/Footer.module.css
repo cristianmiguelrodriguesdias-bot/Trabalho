@@ -1,0 +1,29 @@
+.footerContainer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+  border-top: 4px solid #667eea;
+}
+
+.footer {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .footerContainer {
+    padding: 15px;
+    margin-top: 30px;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+}

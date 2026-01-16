@@ -1,23 +1,18 @@
-import ShowMessage from "./components/ShowMessage";
-import Product from "./components/Product";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Card from "./Card";
-
+import Card from "./components/Card";
+import styles from "./App.module.css";
 
 function App() {
-  
-
   return (
     <>
-     <Header/>
-    <main>
-      <p>Teste</p>
-      <Card></Card>
-    </main>
-    <Footer/>
+      <Header />
+      <main className={styles.main}>
+        <Card/>
+      </main>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
